@@ -14,6 +14,10 @@ namespace SortList.Pages
     {
         private readonly SortList.Data.RazorPagesSortListContext _context;
 
+        public IndexModel()
+        {
+        }
+
         public IndexModel(SortList.Data.RazorPagesSortListContext context)
         {
             _context = context;
